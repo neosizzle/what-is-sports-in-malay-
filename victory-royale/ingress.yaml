@@ -1,9 +1,9 @@
 apiVersion: v1
-kind: Ingress
+kind: Ingressd
 metadata:
   name: victory-royale-ingress
 spec:
-  ingressClassName: victory-royale-ingress
+  ingressClassName: nginx
   rules:
   - http:
       paths:
