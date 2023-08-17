@@ -17,6 +17,8 @@ kind: Deployment
 metadata:
   name: victory-royale
 spec:
+  syncPolicy:
+    automated: {}
   replicas: 1
   selector:
     matchLabels:
