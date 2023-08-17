@@ -1,9 +1,7 @@
 apiVersion: v1
-kind: ingress
+kind: Ingress
 metadata:
   name: victory-royale-ingress
-  annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   ingressClassName: nginx
   rules:
