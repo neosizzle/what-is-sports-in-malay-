@@ -18,6 +18,9 @@ metadata:
   name: victory-royale
 spec:
   replicas: 1
+  selector:
+    matchLabels:
+      app: victory-royale
   template:
     metadata:
       labels:
