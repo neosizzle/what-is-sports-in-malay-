@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: victory-royale
+spec:
+  containers:
+    - image: wil42/playground:v1
+  name: container_royale
+  ports:
+    - containerPort: 8888
+      name: http
+      protocol: TCP
