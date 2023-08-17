@@ -17,8 +17,6 @@ kind: Deployment
 metadata:
   name: victory-royale
 spec:
-  syncPolicy:
-    automated: {}
   replicas: 1
   selector:
     matchLabels:
@@ -29,7 +27,7 @@ spec:
         app: victory-royale
     spec:
       containers:
-        - image: wil42/playground:v1
+        - image: wil42/playground:v2
           name: victory-royale
       ports:
         - containerPort: 8888
