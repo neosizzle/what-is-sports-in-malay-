@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
     - image: wil42/playground:v1
-  name: container_royale
+      name: container_royale
   ports:
     - containerPort: 8888
       name: http
